@@ -249,6 +249,16 @@ export interface DemoOneSliceDefaultPrimaryCardItem {
 	 * - **Documentation**: https://prismic.io/docs/fields/text
 	 */
 	card_text: prismic.KeyTextField;
+	
+	/**
+	 * description field in *DemoOne → Default → Primary → Card*
+	 *
+	 * - **Field Type**: Rich Text
+	 * - **Placeholder**: *None*
+	 * - **API ID Path**: demo_one.default.primary.card[].description
+	 * - **Documentation**: https://prismic.io/docs/fields/rich-text
+	 */
+	description: prismic.RichTextField;
 }
 
 /**
