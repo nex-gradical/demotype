@@ -201,6 +201,16 @@ export interface AfterTypeBuilderSliceDefaultPrimary {
 	 * - **Documentation**: https://prismic.io/docs/fields/text
 	 */
 	typebuilder_text: prismic.KeyTextField;
+	
+	/**
+	 * short description field in *AfterTypeBuilder → Default → Primary*
+	 *
+	 * - **Field Type**: Rich Text
+	 * - **Placeholder**: *None*
+	 * - **API ID Path**: after_type_builder.default.primary.short_description
+	 * - **Documentation**: https://prismic.io/docs/fields/rich-text
+	 */
+	short_description: prismic.RichTextField;
 }
 
 /**
