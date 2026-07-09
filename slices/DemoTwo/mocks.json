@@ -1,0 +1,25 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"demo_text": {
+				"__TYPE__": "FieldContent",
+				"value": "remember",
+				"type": "Text"
+			},
+			"demo_textwo": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ullamco exercitation fugiat voluptate occaecat voluptate ad sit nulla."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

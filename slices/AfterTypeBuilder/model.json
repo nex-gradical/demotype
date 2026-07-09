@@ -1,0 +1,42 @@
+{
+  "id": "after_type_builder",
+  "type": "SharedSlice",
+  "name": "AfterTypeBuilder",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "description": "Default",
+      "imageUrl": "",
+      "docURL": "...",
+      "version": "initial",
+      "primary": {
+        "new_image": {
+          "type": "Image",
+          "config": {
+            "label": "New Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "typebuilder_rich_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "TypebuilderRichText",
+            "placeholder": "",
+            "multi": "paragraph,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl,preformatted",
+            "allowTargetBlank": true
+          }
+        },
+        "typebuilder_text": {
+          "type": "Text",
+          "config": {
+            "label": "typebuilderText",
+            "placeholder": ""
+          }
+        }
+      }
+    }
+  ],
+  "description": "AfterTypeBuilder"
+}

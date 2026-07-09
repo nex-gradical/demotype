@@ -1,0 +1,71 @@
+{
+  "id": "demo_one",
+  "type": "SharedSlice",
+  "name": "DemoOne",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "description": "Default",
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format",
+      "docURL": "...",
+      "version": "initial",
+      "primary": {
+        "demo_image": {
+          "type": "Image",
+          "config": {
+            "label": "demo image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "demo_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "demo text",
+            "placeholder": "",
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+            "allowTargetBlank": true
+          }
+        },
+        "demo_link": {
+          "type": "Link",
+          "config": {
+            "label": "demo link",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": false
+          }
+        },
+        "card": {
+          "type": "Group",
+          "config": {
+            "label": "Card",
+            "repeat": true,
+            "fields": {
+              "card_image": {
+                "type": "Image",
+                "config": {
+                  "label": "card image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "card_text": {
+                "type": "Text",
+                "config": {
+                  "label": "card text",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ],
+  "description": "DemoOne"
+}

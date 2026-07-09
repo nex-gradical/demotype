@@ -1,0 +1,52 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"demo_image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+					"width": 3168,
+					"height": 4752
+				},
+				"url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+				"width": 3168,
+				"height": 4752,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"alt": "myself",
+				"credits": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"demo_text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Est ad magna reprehenderit."
+						}
+					}
+				]
+			},
+			"demo_link": {
+				"__TYPE__": "LinkContent",
+				"key": "c5e415d1-4e2c-49a1-af5e-f3773d402411",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": "one"
+				}
+			}
+		},
+		"items": []
+	}
+]

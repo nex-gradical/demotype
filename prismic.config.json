@@ -1,0 +1,16 @@
+{
+  "repositoryName": "typebuilderdemo",
+  "libraries": [
+    "./slices"
+  ],
+  "routes": [
+    {
+      "type": "demohome",
+      "path": "/demohome"
+    },
+    {
+      "type": "pages",
+      "path": "/pages/:uid"
+    }
+  ]
+}
